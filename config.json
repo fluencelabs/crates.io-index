@@ -1,4 +1,8 @@
 {
   "dl": "https://meuse.fluence.dev/api/v1/mirror",
-  "api": "https://meuse.fluence.dev"
+  "api": "https://meuse.fluence.dev",
+  "allowed-registries": [
+    "https://github.com/rust-lang/crates.io-index",
+    "https://github.com/fluencelabs/crates.io-index"
+  ]
 }
